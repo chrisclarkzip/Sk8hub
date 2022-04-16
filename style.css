@@ -48,3 +48,24 @@ nav img{
     font-size: 14px;
     color: #fff;
 }
+
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 50%;
+    padding: 5px;
+  }
+
+  img{
+      float: left;
+      width: 100%;
+      background-size: cover;
+  }
+
+  .column h1{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-left: 400px;
+  }
